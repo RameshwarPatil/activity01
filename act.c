@@ -1,7 +1,8 @@
 #include<stdio.h>
 
+void fill(int* parr,int n);
 void sumarr(const int* parr, int n);
-void display(const int parr,int n);
+void display(const int *parr,int n);
 
 int main() {
   int i,n=10;
